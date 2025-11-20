@@ -3,10 +3,10 @@ import numpy as np
 import os
 
 # Directorio donde están las imágenes
-directorio_imagenes = 'H:\DATOS IMPORTANTES\Desktop\Infografia\'  # Actualiza esta línea para usar el directorio correcto
+directorio_imagenes = '.'  # Actualiza esta línea para usar el directorio correcto
 
 # Lista de nombres de archivos de imágenes en el directorio
-nombres_imagenes = [img for img in os.listdir(directorio_imagenes) if img.endswith('.jpg')]
+nombres_imagenes = [img for img in os.listdir(directorio_imagenes) if img.endswith('.png')]
 
 # Procesar cada imagen en el directorio
 for nombre_imagen in nombres_imagenes:
